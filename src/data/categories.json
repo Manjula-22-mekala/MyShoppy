@@ -1,0 +1,37 @@
+[
+  {
+    "id": "kitchen",
+    "name": "Kitchen",
+    "icon": "restaurant-outline",
+    "color": "#FF8A65",
+    "description": "Cookware, utensils & prep essentials"
+  },
+  {
+    "id": "cleaning",
+    "name": "Cleaning",
+    "icon": "sparkles-outline",
+    "color": "#4FC3F7",
+    "description": "Keep every room spotless"
+  },
+  {
+    "id": "decor",
+    "name": "Home Décor",
+    "icon": "home-outline",
+    "color": "#BA68C8",
+    "description": "Style your space with ease"
+  },
+  {
+    "id": "storage",
+    "name": "Storage",
+    "icon": "archive-outline",
+    "color": "#4DB6AC",
+    "description": "Bins, organizers & shelving"
+  },
+  {
+    "id": "utility",
+    "name": "Utility",
+    "icon": "construct-outline",
+    "color": "#FFB74D",
+    "description": "Everyday tools & fixes"
+  }
+]
