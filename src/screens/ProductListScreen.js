@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
+import { View, Text, FlatList, StyleSheet, Keyboard } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { fetchCategories, fetchProducts } from '../data/api';
 import { colors } from '../theme/colors';
@@ -83,6 +83,10 @@ export default function ProductListScreen({ route, navigation }) {
           onChangeText={setSearchQuery}
           onFilterPress={() => setFilterVisible(true)}
           filterActive={activeFilterCount > 0}
+          onSubmit={() => {
+            Keyboard.dismiss();
+            loadProducts();
+          }}
           placeholder="Search household products..."
         />
       </View>

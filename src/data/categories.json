@@ -33,5 +33,33 @@
     "icon": "construct-outline",
     "color": "#FFB74D",
     "description": "Everyday tools & fixes"
+  },
+  {
+    "id": "bathroom",
+    "name": "Bathroom",
+    "icon": "water-outline",
+    "color": "#29B6F6",
+    "description": "Bath essentials & accessories"
+  },
+  {
+    "id": "laundry",
+    "name": "Laundry",
+    "icon": "shirt-outline",
+    "color": "#7E57C2",
+    "description": "Washing, drying & fabric care"
+  },
+  {
+    "id": "furniture",
+    "name": "Furniture",
+    "icon": "bed-outline",
+    "color": "#8D6E63",
+    "description": "Seating, storage & workspace"
+  },
+  {
+    "id": "outdoor",
+    "name": "Outdoor & Garden",
+    "icon": "leaf-outline",
+    "color": "#66BB6A",
+    "description": "Tools & décor for outdoor spaces"
   }
 ]

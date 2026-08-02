@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { colors } from '../theme/colors';
 import { radius, spacing } from '../theme/spacing';
 
-export default function SearchBar({ value, onChangeText, placeholder = 'Search products...', onFilterPress, filterActive }) {
+export default function SearchBar({ value, onChangeText, placeholder = 'Search products...', onFilterPress, filterActive, onSubmit }) {
   return (
     <View style={styles.container}>
       <View style={styles.inputWrapper}>
@@ -16,6 +16,7 @@ export default function SearchBar({ value, onChangeText, placeholder = 'Search p
           placeholder={placeholder}
           placeholderTextColor={colors.textMuted}
           returnKeyType="search"
+          onSubmitEditing={onSubmit}
         />
         {value?.length > 0 && (
           <TouchableOpacity onPress={() => onChangeText('')} accessibilityLabel="Clear search">

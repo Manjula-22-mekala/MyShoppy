@@ -1,6 +1,6 @@
 # myShoppy
 
-A mobile-first e-commerce app for household products (kitchen, cleaning, home décor, storage, and utility items), built with React Native + Expo.
+A mobile-first e-commerce app for household products — kitchen, cleaning, home décor, storage, utility, bathroom, laundry, furniture, and outdoor & garden — built with React Native + Expo.
 
 ## Setup
 
@@ -35,8 +35,8 @@ Cart (tab) ──▶ Checkout ──▶ Order Confirmation ──▶ back to Hom
 
 ## Key Features
 
-- Product catalog of 25 household products across 5 categories, each with images, description, price, rating, review count, and stock status.
-- Search by name, and filter by category, price range, and availability.
+- Product catalog of 72 household products across 9 categories (8 per category), each with images, description, price, rating, review count, and stock status.
+- Search by name (live-filtered as you type, plus keyboard/return-key submit), and filter by category, price range, and availability.
 - Cart and checkout with quantity limits enforced by per-product stock.
 - Input validation for the checkout form (name format, 10-digit phone, address length, required city, ZIP format) with per-field error messages.
 - Loading, empty, error, and out-of-stock states throughout (product lists, product details, cart, checkout).

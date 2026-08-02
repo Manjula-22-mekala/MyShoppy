@@ -79,7 +79,13 @@ export default function HomeScreen({ navigation }) {
             </View>
 
             <View style={styles.searchWrapper}>
-              <SearchBar value={searchQuery} onChangeText={setSearchQuery} onFilterPress={submitSearch} placeholder="Search household products..." />
+              <SearchBar
+                value={searchQuery}
+                onChangeText={setSearchQuery}
+                onFilterPress={submitSearch}
+                onSubmit={submitSearch}
+                placeholder="Search household products..."
+              />
             </View>
 
             <Text style={styles.sectionTitle}>Shop by Category</Text>
